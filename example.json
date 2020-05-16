@@ -1,0 +1,13 @@
+[
+	{
+    "url": "/item/:id",
+    "method": "GET",
+    "type": "json",
+    "handler": "getItem"
+	},
+  {
+    "url": "/item/:id/add",
+    "method": "POST",
+    "handler": "addItem"
+  }
+]
